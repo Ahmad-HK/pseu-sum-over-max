@@ -14,6 +14,6 @@ public class TestSumOverMax {
         arr.add(100);
         arr.add(50);
         SumOverMax sumOverMax = new SumOverMax();
-        Assert.assertEquals(2,sumOverMax.getSumOverMax(arr));
+        Assert.assertEquals(22,sumOverMax.getSumOverMax(arr));
     }
 }
