@@ -8,7 +8,7 @@ public class printer {
     public static void main(String[] args) throws IOException {
         FileWriter fw = new FileWriter(new File("helloText.txt"));
 
-        fw.write("Hello World");
+        fw.write("HI World\n");
         fw.close();
 
     }
